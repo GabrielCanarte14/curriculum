@@ -12,7 +12,7 @@
     <header>
         <div id="header">
         <h1>Curriculum Vitae</h1>
-        <img src="https://placehold.co/60x80" alt="Foto Perfil">
+        <img src="https://placehold.co/80x100" alt="Foto Perfil">
         </div>
     </header>
     <main>
@@ -22,7 +22,7 @@
             <p>Name: Gabriel Cañarte</p>
             <p>Contact: lcanarte@espol.edu.ec</p>
             <p>Phone: 0992594748</p>
-            <a href="https://github.com/GabrielCanarte14" target="_blank">Github</a>
+            <a href="https://github.com/GabrielCanarte14" target="_top">Github</a>
             </span>
         </div>
         <hr>
@@ -74,8 +74,36 @@
                 <li>Leadership</li>
             </ol>
         </section>
-        <br>   
-    </nav>
+        <hr>
+        <section>
+            <h2>Encuentrame aquí</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1994.3575043523088!2d-80.57837309150976!3d-1.3474733308646945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sec!4v1684783108459!5m2!1ses-419!2sec" width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+        </section> 
+        <hr>
+        <section>
+            <h2>Enviame un correo</h2>
+            <form id="formulario">
+                <label for="Nombre">Nombre Completo:</label>
+                <input type="text" name="nombrecompleto" required="required">
+                <br>
+                <label for="CorreoElectronico">Correo Electrónico:</label>
+                <input type="text" name="correoelectronico" required="required">
+                <br>
+                <label for="importancia">Importancia</label>
+                <select name="importancia" >
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <br>
+                <label for="mensaje">Mensaje:</label>
+                <textarea name="mensaje" id="" cols="30" rows="5"></textarea>
+                <button type="submit" name="Enviar">Enviar</button>
+            </form> 
+        </section>
+        <br>          
     </main>
     <footer>
         <p>Copyright &copy; 2023</p>
