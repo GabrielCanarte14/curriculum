@@ -1,87 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="stylesheets/style.css">
     <meta charset="UTF-8">
+    <meta name="author" content="GabrielCanarte14">
+    <meta name="keywords" content="cv, achievements, education">
+    <meta name="description" content="This is the cv of Gabriel Canarte">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
     <header>
-        <div id="header">
         <h1>Curriculum Vitae</h1>
-        <img src="https://placehold.co/80x100" alt="Foto Perfil">
-        </div>
     </header>
     <main>
-        <div class="personalInfo">
-            <h2>Personal Information</h2>
-            <span>
-            <p>Name: Gabriel Cañarte</p>
+        <section id="personalInfo">
+            <h2 class="subtitle">Personal Info</h2>
+            <img src="https://placehold.co/80x100" alt="Foto Perfil">
+            <p>Name: Gabriel Canarte</p>
             <p>Contact: lcanarte@espol.edu.ec</p>
-            <p>Phone: 0992594748</p>
-            <a href="https://github.com/GabrielCanarte14" target="_top">Github</a>
-            </span>
-        </div>
-        <hr>
-        <section>
-            <h2>Education</h2>
-            <table border="1px">
+            <p>Phone: +593 992594748</p>
+            <a href="https://github.com/GabrielCanarte14" target="_top" id="git">Github</a>
+        </section>
+        <section id="education">
+            <h2 class="subtitles">Education</h2>
+            <table id="table">
                 <thead>
-                <tr>
-                    <th>Educational Center</th>
-                    <th>Title</th>
-                    <th>Time</th>
-                </tr>
+                    <tr>
+                        <th>Educational Center</th>
+                        <th>Title</th>
+                        <th>Year</th>
+                    </tr>
                 </thead>
                 <tbody>
-                <tr>
-                    <td>Escuela Superior Politécnica del Litoral</td>
-                    <td>Computer Science</td>
-                    <td>2020 - Currently Attending</td>
-                </tr>
-                <tr>
-                    <td>Unidad Educativa Particular Redemptio</td>
-                    <td>Science Baccaulareate</td>
-                    <td>2019</td>
-                </tr>
+                    <tr>
+                        <td>Espol</td>
+                        <td>Computer Science</td>
+                        <td>2020 - Currently Attending</td>
+                    </tr>
+                    <tr>
+                        <td>Redemptio</td>
+                        <td>International Baccaulearate</td>
+                        <td>2019</td>
+                    </tr>
                 </tbody>
             </table>
-        </section>
-        <hr>
-        <section>
-            <h2>Achievement</h2>
-            <p>Student Desing Competition - CHI23</p>
-            <p>First Place</p>
-            <P>2023</P>
-        </section>
-        <hr>
-        <section>
-            <h2>Technical Skills</h2>                  
+        </section id="achievements">
+            <h2 class="subtitles">Achievements</h2>
+            <span>
+                <p>Student Design Competition - CHI23</p>
+                <p>First Place</p>
+                <p>2023</p>
+            </span>
+        <section id="technical">
+            <h2 class="subtitles">Technical Skills</h2>
             <ul>
                 <li>Programming Languages: Java, C, Python</li>
-                <li>Operating Systems: Linux, Windows</li>
+                <li>Operating System: Windows, Linux</li>
                 <li>Database: MySQL</li>
             </ul>
         </section>
-        <hr>
-        <section>
-            <h2>Soft skills</h2>
+        <section id="soft">
+            <h2 class="subtitles">Soft Skills</h2>
             <ol>
                 <li>User Research</li>
                 <li>Leadership</li>
             </ol>
         </section>
-        <hr>
-        <section>
-            <h2>Encuentrame aquí</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1994.3575043523088!2d-80.57837309150976!3d-1.3474733308646945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sec!4v1684783108459!5m2!1ses-419!2sec" width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
-        </section> 
-        <hr>
-        <section>
-            <h2>Enviame un correo</h2>
+        <section id="form">
+            <h2>Contact me</h2>
             <form id="formulario">
                 <label for="Nombre">Nombre Completo:</label>
                 <input type="text" name="nombrecompleto" required="required">
@@ -104,12 +92,28 @@
                 <button type="submit" name="Enviar">Enviar</button>
             </form> 
         </section>
-        <br>
-            <h2>Muestra de mi trabajo</h2>
+        <section id="work">
+            <h2 class="subtitles">My recent work</h2>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/Lh7-PX7xt2g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
-        <br>        
+        </section>
+        <section id="map">
+            <h2 class="subtitle">Find me here</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1726.1892883283485!2d-80.578656243686!3d-1.3477246993315473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sec!4v1684978159951!5m2!1ses!2sec" width="300" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
     </main>
     <footer>
+        <br><br><br>
+        <hr>
+        <nav> 
+            <a href="#personalInfo">Personal Info</a> 
+            <a href="#education">Education</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#technical">Technical Skills</a>
+            <a href="#soft">Soft Skills</a>
+            <a href="#form">Contact me</a>
+            <a href="#work">My recent work</a>
+            <a href="#map">Find me here</a>
+        </nav>
         <p>Copyright &copy; 2023</p>
     </footer>
 </body>
