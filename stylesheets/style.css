@@ -67,7 +67,6 @@ body {
     margin-top: 103px;
     display: flex;
     justify-content: center; /*centra horizontalmente*/
-    height: fit-content;
 }
 
 .iz {
