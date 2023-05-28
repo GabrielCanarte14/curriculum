@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 30px 13%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #495579;
+}
+
+.titulo {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    position: relative;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+nav a::after {
+    position: absolute;
+    content: '';
+    right: 0;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    border-radius: 8px;
+    transition: all ease .45s;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.principal {
+    width: 60%;
+    margin-top: 103px;
+    display: flex;
+    justify-content: center; /*centra horizontalmente*/
+    height: 1000px;
+}
+
+.iz {
+    background: #263159;
+    color: #fff;
+    width: fit-content;
+}
+
+#imagen {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.izquierda {
+    margin-left: 35px;
+    margin-right: 10px;
+}
+
+li {
+    margin-left: 20px;
+}
+
+.subtitle {
+    border-bottom: solid white;
+    margin-bottom: 25px;
+    margin-top: 40px;
+}
+
+#primero {
+    padding-top: 0px;
+}
+
+
+
+.de {
+    background-color: #FFFBEB;
+    width: 60%;
+    color: #263159;
+    
+}
+#nombre {
+    font-size: 2.5rem;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+#h3{
+    font-size: 1.6rem;
+    margin-left: 15px;
+    margin-top: -5px;
+}
+#yo {
+    text-align: justify;
+    margin-left: 15px;
+    margin-right: 35px;
+    margin-top: 10px;
+}
+.subtitleder {
+    margin-right: 35px;
+    margin-top: 25px;
+    margin-left: 15px;
+    border-bottom: solid #263159;
+}
+.ulexp {
+    margin-top: 10px;
+    margin-left: 15px;
+    color: black;
+}
+.interno {
+    margin-left: 25px;
+    margin-top: 15px;
+}
+.textomenor {
+    font-size: 12px;
+    color: black;
+}
+.resaltar {
+    color: black;
+}
+
+
+
+.aditional {
+    border: solid black;
+    margin-top: 50px;
+    margin-left: 25px;
+    width: 100%;
+}
+.subadi {
+    color: #263159;
+    font-weight: 800;
+    text-transform: capitalize;
+}
